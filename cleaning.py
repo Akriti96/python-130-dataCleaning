@@ -7,7 +7,7 @@ print(df.shape)
 del df["hyperlink"]
 
 # we can use drop method to delete data here axis=0 means row data and axis=1 means column data, inplace is used to should not 
-make any changes in original data while deleting 
+#make any changes in original data while deleting 
 
 df.drop(["temp_planet_date","temp_planet_mass","pl_letter","pl_name",
 "pl_controvflag","pl_pnum","pl_orbper","pl_orbpererr1","pl_orbpererr2","pl_orbperlim","pl_orbsmax",
